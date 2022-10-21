@@ -1,0 +1,54 @@
+h1,
+h2,
+h3,
+h4 {
+  margin-left: 10vw;
+  margin-bottom: 3rem;
+  margin-top: 4rem;
+}
+ul > li {
+  margin-left: 10vw;
+  margin-bottom: 2rem;
+}
+p {
+  margin-left: 10vw;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  width: 80%;
+  font-size: 20px;
+  text-align: justify;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  max-width: 98vw;
+  border: 2vw solid rgb(36, 86, 176);
+}
+#randomColorContainer {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+  font-size: xx-large;
+}
+
+#homePagePic {
+  width: 90%;
+  height: 400px;
+}
+
+body {
+  background-color: rgb(17, 39, 64);
+  color: white;
+}
+
+#buttonDiv,
+#inputDiv,
+#randomRGBbutton,
+#quote {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}

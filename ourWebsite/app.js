@@ -302,6 +302,273 @@ app.get("/arrayReferencesAndEqualityTesting", (req, res) => {
     "./arrayReferencesAndEqualityTesting/arrayReferencesAndEqualityTesting"
   );
 });
+app.get("/links", (req, res) => {
+  res.render("./links/links");
+});
+app.get("/entities", (req, res) => {
+  res.render("./entities/entities");
+});
+app.get("/comments", (req, res) => {
+  res.render("./comments/comments");
+});
+app.get("/divAndSpanElements", (req, res) => {
+  res.render("./divAndSpanElements/divAndSpanElements");
+});
+app.get("/hrBrSupAndSubElements", (req, res) => {
+  res.render("./hrBrSupAndSubElements/hrBrSupAndSubElements");
+});
+app.get("/name", (req, res) => {
+  res.render("./name/name");
+});
+app.get("/buttons", (req, res) => {
+  res.render("./buttons/buttons");
+});
+app.get("/inputs", (req, res) => {
+  res.render("./inputs/inputs");
+});
+app.get("/labels", (req, res) => {
+  res.render("./labels/labels");
+});
+app.get("/tables", (req, res) => {
+  res.render("./tables/tables");
+});
+app.get("/semanticMarkup", (req, res) => {
+  res.render("./semanticMarkup/semanticMarkup");
+});
+app.get("/emmet", (req, res) => {
+  res.render("./emmet/emmet");
+});
+app.get("/raceRegistration", (req, res) => {
+  res.render("./raceRegistration/raceRegistration");
+});
+app.get("/formAction", (req, res) => {
+  res.render("./formAction/formAction");
+});
+app.get("/moreInputTypes", (req, res) => {
+  res.render("./moreInputTypes/moreInputTypes");
+});
+app.get("/textarea", (req, res) => {
+  res.render("./textarea/textarea");
+});
+app.get("/aFewOtherHtmlThings", (req, res) => {
+  res.render("./aFewOtherHtmlThings/aFewOtherHtmlThings");
+});
+app.get("/validations", (req, res) => {
+  res.render("./validations/validations");
+});
+app.get("/descendantSelectors", (req, res) => {
+  res.render("./descendantSelectors/descendantSelectors");
+});
+app.get("/class", (req, res) => {
+  res.render("./class/class");
+});
+app.get("/idSelector", (req, res) => {
+  res.render("./idSelector/idSelector");
+});
+app.get("/selectors", (req, res) => {
+  res.render("./selectors/selectors");
+});
+app.get("/fonts", (req, res) => {
+  res.render("./fonts/fonts");
+});
+app.get("/commonTextProperties", (req, res) => {
+  res.render("./commonTextProperties/commonTextProperties");
+});
+app.get("/colors", (req, res) => {
+  res.render("./colors/colors");
+});
+app.get("/cssIntro", (req, res) => {
+  res.render("./cssIntro/cssIntro");
+});
+app.get("/simpleTextExample", (req, res) => {
+  res.render("./simpleTextExample/simpleTextExample");
+});
+app.get("/imagesTesting", (req, res) => {
+  res.render("./imagesTesting/imagesTesting");
+});
+app.get("/padding", (req, res) => {
+  res.render("./padding/padding");
+});
+app.get("/border", (req, res) => {
+  res.render("./border/border");
+});
+app.get("/lists", (req, res) => {
+  res.render("./lists/lists");
+});
+app.get("/widthAndHeight", (req, res) => {
+  res.render("./widthAndHeight/widthAndHeight");
+});
+app.get("/inheritance", (req, res) => {
+  res.render("./inheritance/inheritance");
+});
+app.get("/specificity", (req, res) => {
+  res.render("./specificity/specificity");
+});
+app.get("/pseudoClasses", (req, res) => {
+  res.render("./pseudoClasses/pseudoClasses");
+});
+app.get("/theCascade", (req, res) => {
+  res.render("./theCascade/theCascade");
+});
+app.get("/attributeSelector", (req, res) => {
+  res.render("./attributeSelector/attributeSelector");
+});
+app.get("/museumOfCandy", (req, res) => {
+  res.render("./museumOfCandy/museumOfCandy");
+});
+app.get("/breakKeyword", (req, res) => {
+  res.render("./breakKeyword/breakKeyword");
+});
+app.get("/forOfLoop", (req, res) => {
+  res.render("./forOfLoop/forOfLoop");
+});
+app.get("/functionArguments", (req, res) => {
+  res.render("./functionArguments/functionArguments");
+});
+app.get("/returnKeyword", (req, res) => {
+  res.render("./returnKeyword/returnKeyword");
+});
+app.get("/blockScope", (req, res) => {
+  res.render("./blockScope/blockScope");
+});
+app.get("/setTimeout&setInterval", (req, res) => {
+  res.render("./setTimeout&setInterval/setTimeout&setInterval");
+});
+app.get("/lexicalScope", (req, res) => {
+  res.render("./lexicalScope/lexicalScope");
+});
+app.get("/theTerminal", (req, res) => {
+  res.render("./theTerminal/theTerminal");
+});
+app.get("/someAndEveryMethod", (req, res) => {
+  res.render("./someAndEveryMethod/someAndEveryMethod");
+});
+app.get("/keyboardEventsAndEventObjects", (req, res) => {
+  res.render("./keyboardEventsAndEventObjects/keyboardEventsAndEventObjects");
+});
+app.get("/defaultParams", (req, res) => {
+  res.render("./defaultParams/defaultParams");
+});
+app.get("/domSelecting", (req, res) => {
+  res.render("./domSelecting/domSelecting");
+});
+app.get("/eventDelegation", (req, res) => {
+  res.render("./eventDelegation/eventDelegation");
+});
+app.get("/removingElements", (req, res) => {
+  res.render("./removingElements/removingElements");
+});
+app.get("/theCallStack", (req, res) => {
+  res.render("./theCallStack/theCallStack");
+});
+app.get("/expressRouter", (req, res) => {
+  res.render("./expressRouter/expressRouter");
+});
+app.get("/callbackHell", (req, res) => {
+  res.render("./callbackHell/callbackHell");
+});
+app.get("/expressSessionsAndFlash", (req, res) => {
+  res.render("./expressSessionsAndFlash/expressSessionsAndFlash");
+});
+app.get("/getVsPostRequests", (req, res) => {
+  res.render("./getVsPostRequests/getVsPostRequests");
+});
+app.get("/cookies", (req, res) => {
+  res.render("./cookies/cookies");
+});
+app.get("/REST", (req, res) => {
+  res.render("./REST/REST");
+});
+app.get("/promises", (req, res) => {
+  res.render("./promises/promises");
+});
+app.get("/staticAssetsInExpress", (req, res) => {
+  res.render("./staticAssetsInExpress/staticAssetsInExpress");
+});
+app.get("/databases", (req, res) => {
+  res.render("./databases/databases");
+});
+app.get("/authentication", (req, res) => {
+  res.render("./authentication/authentication");
+});
+app.get("/prototypes", (req, res) => {
+  res.render("./prototypes/prototypes");
+});
+app.get("/pokemon", (req, res) => {
+  res.render("./pokemon/pokemon");
+});
+app.get("/arrayCheatSheet", (req, res) => {
+  res.render("./arrayCheatSheet/arrayCheatSheet");
+});
+app.get("/asyncKeyword", (req, res) => {
+  res.render("./asyncKeyword/asyncKeyword");
+});
+app.get("/awaitKeyword", (req, res) => {
+  res.render("./awaitKeyword/awaitKeyword");
+});
+app.get("/NPMnode", (req, res) => {
+  res.render("./NPMnode/NPMnode");
+});
+app.get("/tvShowSearchAPIaxios", (req, res) => {
+  res.render("./tvShowSearchAPIaxios/tvShowSearchAPIaxios");
+});
+app.get("/webAPIsAndSingleThreaded", (req, res) => {
+  res.render("./webAPIsAndSingleThreaded/webAPIsAndSingleThreaded");
+});
+app.get("/alignContentAlignSelf", (req, res) => {
+  res.render("./alignContentAlignSelf/alignContentAlignSelf");
+});
+app.get("/flexBasisGrowShrink", (req, res) => {
+  res.render("./flexBasisGrowShrink/flexBasisGrowShrink");
+});
+app.get("/emsAndRems", (req, res) => {
+  res.render("./emsAndRems/emsAndRems");
+});
+app.get("/divsBootsttrap", (req, res) => {
+  res.render("./divsBootsttrap/divsBootsttrap");
+});
+app.get("/buttonWeMade", (req, res) => {
+  res.render("./buttonWeMade/buttonWeMade");
+});
+app.get("/bootstrap", (req, res) => {
+  res.render("./bootstrap/bootstrap");
+});
+app.get("/background", (req, res) => {
+  res.render("./background/background");
+});
+app.get("/alignItems", (req, res) => {
+  res.render("./alignItems/alignItems");
+});
+app.get("/googleFonts", (req, res) => {
+  res.render("./googleFonts/googleFonts");
+});
+app.get("/flexWrapRows", (req, res) => {
+  res.render("./flexWrapRows/flexWrapRows");
+});
+app.get("/flexWrapColumns", (req, res) => {
+  res.render("./flexWrapColumns/flexWrapColumns");
+});
+app.get("/flexTest", (req, res) => {
+  res.render("./flexTest/flexTest");
+});
+app.get("/flexbox", (req, res) => {
+  res.render("./flexbox/flexbox");
+});
+app.get("/iconsBootstrap", (req, res) => {
+  res.render("./iconsBootstrap/iconsBootstrap");
+});
+app.get("/mediaQueries", (req, res) => {
+  res.render("./mediaQueries/mediaQueries");
+});
+app.get("/margin", (req, res) => {
+  res.render("./margin/margin");
+});
+app.get("/inlineAndBlockElements", (req, res) => {
+  res.render("./inlineAndBlockElements/inlineAndBlockElements");
+});
+app.get("/inlineAndBlockElements", (req, res) => {
+  res.render("./inlineAndBlockElements/inlineAndBlockElements");
+});
 
 //////////
 
